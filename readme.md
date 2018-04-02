@@ -21,7 +21,7 @@
 
 ```
 
-use Wanshi\MonologFacade\Mylog;
-Mylog::info('xxx', 'yyy');
+use Wanshi\MonologFacade\MonologFacade as Log;
+Log::info('xxx', 'yyy');
 
 ```

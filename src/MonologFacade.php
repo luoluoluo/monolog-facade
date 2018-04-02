@@ -5,7 +5,7 @@ use Monolog\Logger;
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Formatter\LineFormatter;
 
-class MyLog
+class MonologFacade
 {
     public static $logger = null;
 
