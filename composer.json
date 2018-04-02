@@ -1,0 +1,11 @@
+{
+    "name": "wanshi/monolog-facade",
+    "require": {
+	"monolog/monolog": "~1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wanshi\\Monolog-facade\\": "src/"
+        }
+    }
+}
